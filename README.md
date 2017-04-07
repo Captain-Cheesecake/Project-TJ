@@ -7,7 +7,7 @@ Standard rules apply with this project so you are going to need some basic hardw
 
 You will need:
 - Micro USB
-- USB (or 3.5mm jack) Speakers - I find these often work better than bluetooth, even on Pi 3
+- USB (or 3.5mm jack) Speakers - (I find these often work better than bluetooth)
 - USB Microphone
 - Pi Cam
 - Keyboard
@@ -25,4 +25,24 @@ First make these commands in the terminal
 - sudo apt-get update
 and
 - sudo apt-get dist-upgrade
-to ensure that your system is up to date with the latest packages
+To ensure that your system is up to date with the latest packages
+- curl -L https://deb.nodesource.com/setup_6.x | sudo -E bash
+(import all the node packages you will need later)
+- sudo apt-get install nodejs
+Then Y to continue
+and finally
+- sudo apt-get alsa-base alsa-utils libasound2-dev
+Three very important packages, most sytems only have 2 of the three at this point
+
+If you got through that without errors then you should be good to go for the next parts!
+
+# part 3
+
+Now if you chose a speaker that dosen't use the 3.5mm jack skip to the line
+
+
+
+
+
+
+----------------------------------------------------------------------------------
