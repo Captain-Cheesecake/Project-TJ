@@ -14,8 +14,15 @@ You will need:
 - Mouse
 - WIFI dongle / Ethernet cable
 
-now you are ready for step 1,
+now you are ready for 
+# step 1
 
 Go to the Raspberry Pi website and download a NOOBS of your choosing https://www.raspberrypi.org/downloads/noobs/ or raspian if you are more advanced and load it onto your sd card, plug it into your pi with all the other parts and its now ready, run noobs (or raspian) and let it finish installing
 
 # step 2
+
+First make these commands in the terminal
+- sudo apt-get update
+and
+- sudo apt-get dist-upgrade
+to ensure that your system is up to date with the latest packages
