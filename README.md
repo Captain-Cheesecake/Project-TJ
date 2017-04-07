@@ -16,4 +16,6 @@ You will need:
 
 now you are ready for step 1,
 
-Go to the Raspberry Pi website and download a NOOBS of your choosing 
+Go to the Raspberry Pi website and download a NOOBS of your choosing https://www.raspberrypi.org/downloads/noobs/ or raspian if you are more advanced and load it onto your sd card, plug it into your pi with all the other parts and its now ready, run noobs (or raspian) and let it finish installing
+
+# step 2
