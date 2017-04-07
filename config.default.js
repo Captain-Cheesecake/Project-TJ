@@ -24,3 +24,15 @@ exports.credentials.text_to_speech = {
 	password: '',
 	username: ''
 };
+
+// Watson Visual Recognition API
+//https://console.eu-gb.bluemix.net/services/watson_vision_combined
+exports.VisionKey = '',
+exports.VisionVersion = '2016-05-19'
+
+// Watson Text to Speech
+// https://www.ibm.com/watson/developercloud/text-to-speech.html
+exports.TTSUsername = '',
+exports.TTSPassword = ''
+
+exports.version ='v1'
