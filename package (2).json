@@ -1,0 +1,34 @@
+{
+  "name": "tjvision",
+  "version": "1.0.0",
+  "description": "Recipe to make your tjbot analyze images it sees",
+  "main": "tjvision.js",
+  "dependencies": {
+    "node-aplay": "^1.0.3",
+    "npm": "^4.0.2",
+    "tjbot": "^1.2.0",
+    "watson-developer-cloud": "^2.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victordibia/tjvision.git"
+  },
+  "keywords": [
+    "watson",
+    "vision",
+    "recognition",
+    "tjbot",
+    "machine",
+    "vision"
+  ],
+  "author": "Victor Dibia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victordibia/tjvision/issues"
+  },
+  "homepage": "https://github.com/victordibia/tjvision#readme"
+}
