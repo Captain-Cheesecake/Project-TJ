@@ -109,10 +109,40 @@ When you get to text to speech the second time, click new credential, leave ever
 In this step we create the replies that TJ will be using when you talk to him
 for this we need Watson conversation but instead of clicking credentials stay where you are, you want to,
 - Launch tool
-- In workspaces click import and drag the workspace-sample into the window and have the everything box selected
+- In workspaces click import and drag the workspace-sample into the window and have the 'everything (intents, entitys and dialog) box selected
 - you can edit this as you wish (intents must have 5 variations)
 - go back to workspaces and click the three dots, then view details
 
 this is your workspace key, just put it here
-- // User-specific configuration
-  exports.conversationWorkspaceId = ''; // replace with the workspace identifier of your conversation
+- exports.conversationWorkspaceId = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+
+# step 7
+
+This can get a bit tricky so stay with me here,
+you need to copy
+- tjvision.js
+- the CONTENTS of node_modules, not the file
+
+from TJBot-Visual-Otherparts to TJBot-Visual, you can do this in file manager because it is easier, just drag and drop
+for the node_modules files click skip if it says that the file already exists, you wont need these but you will need the ones that are missing
+
+# step 8
+If you did all that correct you can now run the code!
+- cd TJBot-Visual (skip if already there)
+- sudo node conversation.js
+
+now you can talk to watson, and he can talk to you, for example:
+- Watson, please introduce yourself
+- Watson, tell me a joke
+- what can you see around you
+
+# Troubleshooting
+
+If you see TJBot's response on the terminal but don't hear TJBot talking, there is a good chance that one of these two things has happened: 1)The audio output is directed to a wrong channel (you can fix it from raspi-config), 2)Your sound modules are blocked. In that case, go to /etc/modprobe.d/ and remove blacklist-rgb-led.conf
+
+Then run the following command:
+- sudo update-initramfs -u
+
+Reboot and confirm the "snd" modules are running by executing the command "lsmod". This should solve the problem.
+- lsmod
+
