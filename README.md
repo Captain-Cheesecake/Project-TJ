@@ -106,4 +106,13 @@ exports.credentials.conversation = {
 When you get to text to speech the second time, click new credential, leave everything as is and click add, now use this second credential instead of the first to prevent errors
 # step 6
 
+In this step we create the replies that TJ will be using when you talk to him
+for this we need Watson conversation but instead of clicking credentials stay where you are, you want to,
+- Launch tool
+- In workspaces click import and drag the workspace-sample into the window and have the everything box selected
+- you can edit this as you wish (intents must have 5 variations)
+- go back to workspaces and click the three dots, then view details
 
+this is your workspace key, just put it here
+- // User-specific configuration
+  exports.conversationWorkspaceId = ''; // replace with the workspace identifier of your conversation
