@@ -27,6 +27,7 @@ First make these commands in the terminal
 - curl -L https://deb.nodesource.com/setup_6.x | sudo -E bash
 - sudo apt-get install -y nodejs
 - sudo apt-get alsa-base alsa-utils libasound2-dev
+
 Three very important packages, most sytems only have 2 of the three at this point
 
 If you got through that without errors then you should be good to go for the next parts!
