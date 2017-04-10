@@ -6,6 +6,7 @@ A short guide on how to turn your Raspberry Pi from NOOB to a TJBot with IBM Wat
 Standard rules apply with this project so you are going to need some basic hardware and some extras
 
 You will need:
+- mini sd card (8gb minimum)
 - Micro USB
 - USB (or 3.5mm jack) Speakers - (I find these often work better than bluetooth)
 - USB Microphone
