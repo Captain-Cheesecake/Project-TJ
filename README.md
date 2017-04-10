@@ -154,3 +154,6 @@ Then run the following command:
 Reboot and confirm the "snd" modules are running by executing the command "lsmod". This should solve the problem.
 - lsmod
 
+
+Any issues not seen here are probably unknown to me, so please drop and issue and i will try to fix it!
+
