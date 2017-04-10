@@ -15,11 +15,11 @@ You will need:
 - WIFI dongle / Ethernet cable
 
 now you are ready for 
-# step 1
+# Step 1
 
 Go to the Raspberry Pi website and download a NOOBS of your choosing https://www.raspberrypi.org/downloads/noobs/ or raspian if you are more advanced and load it onto your sd card, plug it into your pi with all the other parts and its now ready, run noobs (or raspian) and let it finish installing
 
-# step 2
+# Step 2
 
 First make these commands in the terminal
 - sudo apt-get update
@@ -32,7 +32,7 @@ Three very important packages, most sytems only have 2 of the three at this poin
 
 If you got through that without errors then you should be good to go for the next parts!
 
-# part 3
+# Step 3
 
 Now if you chose a speaker that dosen't use the 3.5mm jack skip to the line
 
@@ -65,7 +65,7 @@ go to interfacing and choose camera, activate this
 then do the same with SSH (for wireless TJ)
 finally finish up by pressing enter on finish
 
-# step 4
+# Step 4
 
 Now for the good bit do the following commands in order
 - git clone https://github.com/Captain-Cheesecake/TJBot-Visual
@@ -85,7 +85,7 @@ Now for the good bit do the following commands in order
 - npm install
 and you're good!
 
-# step 5
+# Step 5
 
 To make TJBot work you must have Watson API's available to you, the way to do this is IBM Bluemix https://console.eu-gb.bluemix.net
 first things first make a free account, then go to the catalog and find 'Conversation', 'Text to speech' and 'speech to text'
@@ -104,7 +104,7 @@ exports.credentials.conversation = {
 	username: 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'
 
 When you get to text to speech the second time, click new credential, leave everything as is and click add, now use this second credential instead of the first to prevent errors
-# step 6
+# Step 6
 
 In this step we create the replies that TJ will be using when you talk to him
 for this we need Watson conversation but instead of clicking credentials stay where you are, you want to,
@@ -116,7 +116,7 @@ for this we need Watson conversation but instead of clicking credentials stay wh
 this is your workspace key, just put it here
 - exports.conversationWorkspaceId = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
-# step 7
+# Step 7
 
 This can get a bit tricky so stay with me here,
 you need to copy
@@ -126,7 +126,7 @@ you need to copy
 from TJBot-Visual-Otherparts to TJBot-Visual, you can do this in file manager because it is easier, just drag and drop
 for the node_modules files click skip if it says that the file already exists, you wont need these but you will need the ones that are missing
 
-# step 8
+# Step 8
 If you did all that correct you can now run the code!
 - cd TJBot-Visual (skip if already there)
 - sudo node conversation.js
