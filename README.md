@@ -23,14 +23,9 @@ Go to the Raspberry Pi website and download a NOOBS of your choosing https://www
 
 First make these commands in the terminal
 - sudo apt-get update
-and
 - sudo apt-get dist-upgrade
-To ensure that your system is up to date with the latest packages
 - curl -L https://deb.nodesource.com/setup_6.x | sudo -E bash
-(import all the node packages you will need later)
-- sudo apt-get install nodejs
-Then Y to continue
-and finally
+- sudo apt-get install -y nodejs
 - sudo apt-get alsa-base alsa-utils libasound2-dev
 Three very important packages, most sytems only have 2 of the three at this point
 
