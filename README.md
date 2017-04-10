@@ -102,9 +102,11 @@ start all of these services (leave the names and credentials as is)
 now, back on your pi do
 - cd TJBot-Visual
 - cp config.default.js config.js
+
 now open config.js in leafpad or nano
 for nano just do
 - nano config.js
+
 and in each slot put the credentials like this
 
 exports.credentials.conversation = {
