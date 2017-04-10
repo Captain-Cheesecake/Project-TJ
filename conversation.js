@@ -14,6 +14,8 @@
  * limitations under the License.
  */
 
+//for the purpose of following the copyright attached there have been changes to this code, parts have been added to make this work
+
 var picture = 'can you see what is around you';
 
 var TJBot = require('tjbot');
