@@ -155,7 +155,10 @@ Then run the following command:
 
 Reboot and confirm the "snd" modules are running by executing the command "lsmod". This should solve the problem.
 - lsmod
+---------------------------------------------------------------------------------
+If you get an exit code '70' on an image it is usually because it already exists, just wipe the photos folder in TJBot-Vision and it should work fine
 
+-----------------------------------------------------------------------------------
 
 Any issues not seen here are probably unknown to me, so please drop and issue and i will try to fix it!
 
