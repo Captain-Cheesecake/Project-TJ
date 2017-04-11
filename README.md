@@ -144,7 +144,7 @@ If you did all that correct you can now run the code!
 now you can talk to watson, and he can talk to you, for example:
 - Watson, please introduce yourself
 - Watson, tell me a joke
-- what can you see around you
+- What can you see around you
 
 # Troubleshooting
 
