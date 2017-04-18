@@ -1,4 +1,4 @@
-# TJBot-Visual
+# Project-TJ
 A short guide on how to turn your Raspberry Pi from NOOB to a TJBot with IBM Watson services
 
 (please note that this only the software side of things, for body plans go here http://www.instructables.com/id/Build-TJ-Bot-Out-of-Cardboard/ and for folding go here http://www.instructables.com/id/Build-TJ-Bot-Out-of-Cardboard/step3/Folding-TJBot-Part-1/ and here http://www.instructables.com/id/Build-TJ-Bot-Out-of-Cardboard/step4/Folding-TJBot-Part-2/ )
