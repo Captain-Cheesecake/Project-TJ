@@ -74,13 +74,13 @@ finally finish up by pressing enter on finish
 # Step 4
 
 Now for the good bit do the following commands in order
-- git clone https://github.com/Captain-Cheesecake/TJBot-Visual
-- git clone https://github.com/Captain-Cheesecake/TJBot-Visual-Otherparts
-- cd TJBot-Visual
+- git clone https://github.com/Captain-Cheesecake/Project-TJ
+- git clone https://github.com/Captain-Cheesecake/Project-TJx
+- cd Project-TJ
 - npm install
 - npm rebuld
 - cd
-- cd TJBot-Visual-Otherparts
+- cd Project-TJx
 - npm install
 - npm rebuld
 - cd
@@ -100,7 +100,7 @@ first things first make a free account, then go to the catalog and find 'Convers
 
 start all of these services (leave the names and credentials as is)
 now, back on your pi do
-- cd TJBot-Visual
+- cd Project-TJ
 - cp config.default.js config.js
 
 now open config.js in leafpad or nano
@@ -133,12 +133,12 @@ you need to copy
 - tjvision.js
 - the CONTENTS of node_modules, not the file
 
-from TJBot-Visual-Otherparts to TJBot-Visual, you can do this in file manager because it is easier, just drag and drop
+from Project-TJx to the node_modules folder inside Project-TJ, you can do this in file manager because it is easier, just drag and drop
 for the node_modules files click skip if it says that the file already exists, you wont need these but you will need the ones that are missing
 
 # Step 8
 If you did all that correct you can now run the code!
-- cd TJBot-Visual (skip if already there)
+- cd Project-TJ (skip if already there)
 - sudo node conversation.js
 
 now you can talk to watson, and he can talk to you, for example:
