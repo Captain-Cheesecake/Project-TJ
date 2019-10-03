@@ -42,7 +42,7 @@ ok for the rest of you you need to do
 
 then select the advanced option
 now down to audio and then force to 3.5mm jack (this helps if you are using a permanent case that will make it harder to change later)
-now tap right key twice to get to finish and your done
+now tap right key twice to get to finish and you're done
 
 ----------------------------------------------------------------------------------
 
